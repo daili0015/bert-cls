@@ -1,0 +1,13 @@
+
+
+—µ¡∑
+python run_classifier.py 
+--output_dir ./out-e --task_type e --num_train_epochs 3 --data_dir ./ --csv_path res.csv --bert_model ./bert-base-chinese --task_name MyPro --max_seq_length 256 --train_batch_size 16 --do_train --no_cuda 
+
+
+≤‚ ‘
+python run_classifier.py --bert_model ./out-e --output_dir ./out-e --task_type e --csv_path res.csv  --task_name MyPro --data_dir ./ --max_seq_length 256 --train_batch_size 16 --do_eval --no_cuda 
+
+
+
+
